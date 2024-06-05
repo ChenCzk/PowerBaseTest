@@ -1,7 +1,6 @@
 <template>
   <div class="about">
-<!--    <bq-button :size="'我是2'"></bq-button>-->
-    <ea-button></ea-button>
+    <bq-button :size="'我是2'"></bq-button>
 
 
     <el-button :disabled></el-button>

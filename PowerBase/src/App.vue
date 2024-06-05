@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <!--      <PcButton>阿萨德</PcButton>-->
 <!--      <pc-button >啊实打实</pc-button>-->
       <BqButton></BqButton>
+
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
