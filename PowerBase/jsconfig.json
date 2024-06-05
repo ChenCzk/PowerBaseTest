@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "types": ["@poewe/es/index.d.ts","../poewe/index.d.ts","node_modules/poewe/index.d.ts"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
