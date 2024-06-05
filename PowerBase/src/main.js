@@ -5,15 +5,14 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
-// import bqDesign from 'bq-design'
+import bqDesign from 'bq-design'
 //import easyest from 'easyest'
-import vcDesign from 'vc-design'
 
 const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-app.use(vcDesign)
+app.use(bqDesign)
 //app.use(easyest)
 
 app.mount('#app')
